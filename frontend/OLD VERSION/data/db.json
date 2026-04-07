@@ -1,0 +1,35 @@
+{
+    "lastMessages": [
+        { "sender": "Mariusz Tomaszkiewicz", "status": "active", "lastSeen": null, "id": 1, "lastMessage": "habababab"},
+        { "sender": "Grażyna Bydło", "status": "offline", "lastSeen": "5 min temu", "id": 2, "lastMessage": "synku"},
+        { "sender": "Wiechu S", "status": "offline", "lastSeen": "wczoraj", "id": 3, "lastMessage": "siemandero"},
+        { "sender": "Adis Adis", "status": "offline", "lastSeen": "5h temu", "id": 4, "lastMessage": "nie ze mną te numery"}
+    ],
+    "messages1": [
+        { "id": 1, "sender": "Mariusz Tomaszkiewicz", "content": "Chipi chipi" },
+        { "id": 2, "sender": "You", "content": "chapa chapa" },
+        { "id": 3, "sender": "Mariusz Tomaszkiewicz", "content": "dubi dubi" },
+        { "id": 4, "sender": "You", "content": "daba daba" }
+    ],
+    "messages2": [
+        { "id": 5, "sender": "Grażyna Bydło", "content": "Lorem ipsum dolor sit amet" },
+        { "id": 7, "sender": "Grażyna Bydło", "content": "sed do eiusmod tempor incididunt" },
+        { "id": 6, "sender": "You", "content": "consectetur adipiscing elit" },
+        { "id": 8, "sender": "You", "content": "ut labore et dolore magna aliqua" }
+    ],
+    
+    "messages3": [
+        { "id": 9, "sender": "Wiechu S", "content": "Ut enim ad minim veniam" },
+        { "id": 10, "sender": "You", "content": "quis nostrud exercitation ullamco" },
+        { "id": 11, "sender": "Wiechu S", "content": "laboris nisi ut aliquip ex ea commodo consequat" },
+        { "id": 12, "sender": "You", "content": "duis aute irure dolor in reprehenderit" }
+    ],
+    
+    "messages4": [
+        { "id": 13, "sender": "Adis Adis", "content": "in voluptate velit esse cillum dolore eu fugiat nulla pariatur" },
+        { "id": 14, "sender": "You", "content": "excepteur sint occaecat cupidatat non proident" },
+        { "id": 15, "sender": "Adis Adis", "content": "sunt in culpa qui officia deserunt mollit anim id est laborum" },
+        { "id": 16, "sender": "You", "content": "Nam eleifend elit eget felis imperdiet scelerisque" }
+    ]
+    
+}

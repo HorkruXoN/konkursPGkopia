@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div id="ws">
+        <textarea id="message" cols="30" rows="10"></textarea>
+        <button id="send">Send</button><br>
+
+        <input type="text" id="address" placeholder="Address">
+        <button id="connect">Connect</button><br>
+
+        <textarea id="log" cols="30" rows="10"></textarea>
+    </div>
+    <script>
+        document.getElementById('connect').addEventListener('click', () => {
+            const ws = new WebSocket(document.getElementById('address').value);
+            ws.onopen = () => {
+                console.log('Connected');
+            };
+            ws.onmessage = (e) => {
+                document.getElementById('log').value += e.data + '\n';
+            };
+            ws.onclose = () => {
+                console.log('Disconnected');
+            };
+            document.getElementById('send').addEventListener('click', () => {
+                ws.send(document.getElementById('message').value);
+            });
+        });
+
+        const wss = new WebSocket('ws://localhost:8080/connect/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c2VyIjoiNjVjOGQyZjUxY2E5YThjZGMwNmE1OGM0IiwidXNlcm5hbWUiOiJhbGljZWpvaG5zb24ifQ.u_kJIqzjXh82DAxbipgj-jAFMea-MZeFHgRYWnzXxRs');
+        wss.onopen = () => {
+            console.log('Connected');
+            wss.send('{"type": "message", "data": {"id_chat": "65c91c8f1ca9a8cdc06a58d9", "message": "Hello"}}');
+        };
+
+
+
+        const wss = new WebSocket('ws://localhost:8000/chat/connect/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF91c2VyIjoiNjVjOGQyZjUxY2E5YThjZGMwNmE1OGM0IiwidXNlcm5hbWUiOiJhbGljZWpvaG5zb24ifQ.u_kJIqzjXh82DAxbipgj-jAFMea-MZeFHgRYWnzXxRs');
+        wss.onopen = () => {
+            console.log('Connected');
+            setTimeout(() => {
+                wss.send('{"type": "message", "data": {"id_chat": "65c91c8f1ca9a8cdc06a58d9", "message": "Hello"}}');
+            }, 1000);
+        }; 
+        wss.onmessage = (e) => {
+            console.log(e.data);
+        };
+    </script>
+</body>
+</html>

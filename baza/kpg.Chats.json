@@ -1,0 +1,206 @@
+[{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d2"
+  },
+  "is_group": true,
+  "name": "grupa1",
+  "admin": "65c8d2f51ca9a8cdc06a58c2",
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c3",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c4",
+      "unread_messages": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d3"
+  },
+  "is_group": false,
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c3",
+      "unread_messages": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d4"
+  },
+  "is_group": true,
+  "name": "grupa2",
+  "admin": "65c8d2f51ca9a8cdc06a58c2",
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c6",
+      "unread_messages": 10
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c9",
+      "unread_messages": 18
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c3",
+      "unread_messages": 18
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c4",
+      "unread_messages": 18
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d5"
+  },
+  "is_group": false,
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c6",
+      "unread_messages": 72
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d6"
+  },
+  "is_group": true,
+  "name": "grupa3",
+  "admin": "65c8d2f51ca9a8cdc06a58c2",
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c5",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c7",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c8",
+      "unread_messages": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d7"
+  },
+  "is_group": false,
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c8",
+      "unread_messages": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d8"
+  },
+  "is_group": true,
+  "name": "grupa4",
+  "admin": "65c8d2f51ca9a8cdc06a58c2",
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c5",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c9",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c6",
+      "unread_messages": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65c91c8f1ca9a8cdc06a58d9"
+  },
+  "is_group": false,
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c4",
+      "unread_messages": 4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d25ef2e4fb967e075129b0"
+  },
+  "is_group": false,
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c5",
+      "unread_messages": 0
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65d9386261834a6b87540d5b"
+  },
+  "is_group": true,
+  "members": [
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c6",
+      "unread_messages": 8
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c7",
+      "unread_messages": 8
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c9",
+      "unread_messages": 8
+    },
+    {
+      "user_id": "65c8d2f51ca9a8cdc06a58c2",
+      "unread_messages": 0
+    }
+  ],
+  "admin": "65c8d2f51ca9a8cdc06a58c2",
+  "name": "murzyni"
+}]

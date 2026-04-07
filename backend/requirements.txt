@@ -1,0 +1,8 @@
+pyJWT
+fastapi
+pydantic
+bcrypt
+uvicorn[standard]
+motor
+ldap3
+python-multipart
